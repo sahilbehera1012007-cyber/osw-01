@@ -1,0 +1,183 @@
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #869ab8;
+}
+
+.logo{
+    color: rgb(0, 136, 255);
+}
+
+header button{
+    background-color: rgb(0, 136, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+   
+}
+
+.content{
+   display:grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   
+}
+img{
+    height: 470px;
+    
+    
+}
+.desc{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 1.5;
+}
+.desc p{
+    font-size: x-large;
+    color: #869ab8;
+}
+
+button{
+    height: 60px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.b1{
+    background-color: rgb(0, 136, 255);
+    color: white;
+    font-size: large;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.b2{
+    font-size: large;
+    width: 200px;
+    border-radius: 8px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+section div{
+    margin-top: 20px;
+    padding: 30px;
+}
+
+section div h4{
+    font-size:x-large;
+}
+
+section div p{
+    font-size: large;
+    line-height: 2;
+    color: #869ab8;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px;
+}
+
+.b2:hover{
+    color: rgb(0, 136, 255);;
+}
+
+a{
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+a:hover{
+    transform: scale(1.1);
+    color: rgb(0, 136, 255);
+}
+
+.bi-slack,.bi-exclude,.bi-intersect{
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 7vh;
+    gap: 10vh;
+}
+
+footer .bi{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.social .bi:hover{
+    color: rgb(10, 95, 168);
+}
+
+.links a:hover{
+    color: rgb(10, 95, 168);
+}
+
+.linkmax{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10vh;
+}
+
+.social p,.bi{
+    color: #869ab8;
+    font-size: 20px;
+}
+
+.social p{
+    margin-left: 6px;
+}
+
+.social span{
+    padding: 5px;
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap:2vh ;
+}
+
+.links a{
+    color: #869ab8;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.links pre{
+    color: #5a677b;
+    font-size: 16px;
+}
